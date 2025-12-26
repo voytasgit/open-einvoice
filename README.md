@@ -86,9 +86,10 @@ dotnet run --project src/ERechnung.Web
 ## ⚠️ Disclaimer
 
 This software is provided "as is", without warranty of any kind.
-Use it at your own risk.
 
-The authors and contributors are not responsible for any damages,
-data loss, or legal issues resulting from the use of this software.
+It does not constitute legal, tax, or accounting advice.
+Users are solely responsible for verifying the correctness,
+compliance, and acceptance of generated invoices.
 
-This project does not constitute legal or tax advice.
+The authors and contributors are not affiliated with or endorsed by
+any governmental authority or standardization body.
