@@ -83,7 +83,7 @@ No data is transmitted to third-party services.
 ```bash
 dotnet run --project src/ERechnung.Web
 
-⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 This software is provided "as is", without warranty of any kind.
 Use it at your own risk.
