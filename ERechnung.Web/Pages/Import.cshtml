@@ -1,0 +1,44 @@
+﻿@page
+@model ImportModel
+@{
+    ViewData["Title"] = "Rechnung importieren";
+}
+
+<div class="container py-5">
+
+    <h2 class="fw-bold mb-3">📤 Rechnung importieren</h2>
+    <p class="text-muted mb-4">
+        Lade eine bestehende Rechnung hoch –
+        wir übernehmen die Daten für dich.
+    </p>
+
+    <form method="post" enctype="multipart/form-data">
+
+        <div id="dropZone"
+             class="border border-2 border-dashed rounded p-5 text-center mb-4 drop-zone">
+
+            <div class="fs-1 mb-3">⬆️</div>
+            <p class="fw-bold mb-2">Datei hier ablegen</p>
+            <p class="text-muted small">
+                oder Datei auswählen (XML, PDF, ZUGFeRD)
+            </p>
+
+            <input type="file"
+                   id="fileInput"
+                   name="Upload"
+                   class="form-control mt-3"
+                   accept=".xml,.pdf" />
+        </div>
+
+        <button class="btn btn-primary btn-lg">
+            Importieren & weiter
+        </button>
+    </form>
+
+    <div class="alert alert-info mt-4">
+        🔒 <strong>Hinweis:</strong>
+        Deine Datei wird nicht gespeichert –
+        sie wird nur zum Vorbefüllen verwendet.
+    </div>
+
+</div>

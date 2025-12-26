@@ -1,0 +1,48 @@
+{
+  "seller": {
+    "name": "Muster GmbH",
+    "street": "Hauptstraße 1",
+    "postalCode": "10115",
+    "city": "Berlin",
+    "countryCode": "DE",
+    "vatId": "DE123456789",
+    "endpointId": "rechnung@muster-gmbh.de",
+    "email": "rechnung@muster-gmbh.de",
+    "phone": "+49 30 1234567"
+  },
+  "buyer": {
+    "name": "Kunde AG",
+    "street": "Marktplatz 5",
+    "postalCode": "80331",
+    "city": "München",
+    "countryCode": "DE",
+    "endpointId": "buchhaltung@kunde-ag.de",
+    "email": "buchhaltung@kunde-ag.de"
+  },
+  "invoice": {
+    "invoiceNumber": "RE-2025-002",
+    "invoiceDate": "2025-01-20",
+    "currency": "EUR",
+    "paymentTerms": "Zahlbar sofort ohne Abzug",
+    "totalNetAmount": 100.00,
+    "totalVatAmount": 19.00,
+    "totalGrossAmount": 119.00,
+    "buyerReference": "MyReference123",
+
+    "payment": {
+      "paymentMeansCode": "42",
+      "iban": "DE02120300000000202051"
+    }
+  },
+  "items": [
+    {
+      "name": "Beratungsleistung",
+      "description": "Beratungsleistung Januar 2025",
+      "quantity": 1,
+      "unitCode": "C62",
+      "unitPriceNet": 100.00,
+      "lineNetAmount": 100.00,
+      "vatRate": 19
+    }
+  ]
+}

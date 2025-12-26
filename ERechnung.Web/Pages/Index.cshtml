@@ -1,0 +1,52 @@
+﻿@page
+@model IndexModel
+
+<div class="container py-5">
+
+    <div class="text-center mb-5">
+        <h1 class="display-5 fw-bold">XRechnung einfach erstellen</h1>
+        <p class="lead text-muted">
+            Kostenlos · Ohne Anmeldung · Sofortiger Download
+        </p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+
+        <!-- IMPORT -->
+        <div class="col-md-6">
+            <div class="card h-100 shadow-sm border-primary">
+                <div class="card-body text-center p-4">
+                    <h3 class="mb-3">📤 XRechnung hochladen</h3>
+                    <p class="text-muted">
+                        Beste Wahl, wenn du schon einmal eine e-Rechnung erstellt hast.
+                        Alle Daten werden automatisch übernommen.
+                    </p>
+                    <a asp-page="/import" class="btn btn-primary btn-lg w-100">
+                        XRechnung hochladen
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- NEW -->
+        <div class="col-md-6">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body text-center p-4">
+                    <h3 class="mb-3">✍️ Neue XRechnung</h3>
+                    <p class="text-muted">
+                        Schritt-für-Schritt geführt mit automatischer Berechnung.
+                    </p>
+                    <a asp-area="" asp-page="/Create" class="btn btn-outline-secondary btn-lg w-100">
+                        Neue Rechnung erstellen
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="text-center mt-4 text-muted">
+        💡 Tipp: Nach dem ersten Download kannst du deine Rechnung später einfach wieder hochladen.
+    </div>
+
+</div>

@@ -1,0 +1,16 @@
+﻿bin/
+obj/
+.vs/
+*.user
+*.suo
+*.log
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

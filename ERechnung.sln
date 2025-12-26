@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36717.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERechnung.Core", "ERechnung.Core\ERechnung.Core.csproj", "{D937E504-B524-46A5-B304-BEE99826D36A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERechnung.Api", "ERechnung.Api\ERechnung.Api.csproj", "{A79C9625-DE60-438F-8498-A39B56004C3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERechnung.Web", "ERechnung.Web\ERechnung.Web.csproj", "{1496F7C6-B651-492A-ADE3-AB35BDC38D9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D937E504-B524-46A5-B304-BEE99826D36A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D937E504-B524-46A5-B304-BEE99826D36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D937E504-B524-46A5-B304-BEE99826D36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D937E504-B524-46A5-B304-BEE99826D36A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A79C9625-DE60-438F-8498-A39B56004C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A79C9625-DE60-438F-8498-A39B56004C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A79C9625-DE60-438F-8498-A39B56004C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A79C9625-DE60-438F-8498-A39B56004C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1496F7C6-B651-492A-ADE3-AB35BDC38D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1496F7C6-B651-492A-ADE3-AB35BDC38D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1496F7C6-B651-492A-ADE3-AB35BDC38D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1496F7C6-B651-492A-ADE3-AB35BDC38D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98D286D8-7564-43A7-8A0C-9BD1595DD8A1}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://s44-tfs:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ERechnung.Core\\ERechnung.Core.csproj
+		SccProjectName1 = ERechnung.Core
+		SccLocalPath1 = ERechnung.Core
+		SccProjectUniqueName2 = ERechnung.Api\\ERechnung.Api.csproj
+		SccProjectName2 = ERechnung.Api
+		SccLocalPath2 = ERechnung.Api
+		SccProjectUniqueName3 = ERechnung.Web\\ERechnung.Web.csproj
+		SccProjectName3 = ERechnung.Web
+		SccLocalPath3 = ERechnung.Web
+	EndGlobalSection
+EndGlobal
