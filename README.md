@@ -1,4 +1,4 @@
-# ERechnung.Web
+# open-invoice (ERechnung.Web)
 
 A free, open-source web application to create and import **XRechnung (EN 16931)** invoices  
 with preview and export support.
